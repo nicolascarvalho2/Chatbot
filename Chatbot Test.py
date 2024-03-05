@@ -3,11 +3,11 @@ import os
 
 def processar_resposta(resposta, nome):
     if resposta == '1':
-        print(f'{os.linesep}{nome} atualmente eu tenho 21 anos {os.linesep}')
+        print(f'{os.linesep}{nome}, atualmente eu tenho 21 anos {os.linesep}')
     elif resposta == '2':
-        print(f'{os.linesep}{nome} EU sou estudando de Gestao da tecnologia da informação (GST){os.linesep}')
+        print(f'{os.linesep}{nome}, eu sou estudando de Gestao da tecnologia da informação (GST){os.linesep}')
     elif resposta == '3':
-        print(f'{os.linesep}{nome} Sim, estudo muito pra isso kkk{os.linesep}')
+        print(f'{os.linesep}{nome}, Sim estudo muito pra isso kkk{os.linesep}')
     else:
         print('Digite apenas 1,2, ou 3')
 
